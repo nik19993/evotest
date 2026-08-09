@@ -1,0 +1,12 @@
+.git
+.claude
+vendor
+core/vendor
+core/storage/framework/cache
+core/storage/framework/sessions
+core/storage/framework/views
+core/storage/logs
+assets/cache
+assets/files
+assets/images
+node_modules

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"//wsl.localhost/Ubuntu/home/mykola/projects/evo/vendor\" | head -50)",
+      "Read(///wsl.localhost/Ubuntu/home/mykola/projects/evo/**)",
+      "Bash(grep -rl \":install\" \"//wsl.localhost/Ubuntu/home/mykola/projects/evo/core\" --include=*.php 2>/dev/null | head -30)",
+      "Bash(grep -rln \"getName\\\\|protected \\\\$signature\\\\|protected \\\\$name\" \"//wsl.localhost/Ubuntu/home/mykola/projects/evo/core/app/Console/Commands\" 2>/dev/null | head -50; echo \"---dir---\"; find \"//wsl.localhost/Ubuntu/home/mykola/projects/evo/core/app/Console\" -maxdepth 2 2>/dev/null)",
+      "Read(///wsl.localhost/Ubuntu/home/mykola/projects/evo/core/app/Console/**)",
+      "Read(///wsl.localhost/Ubuntu/home/mykola/projects/evo/core/app/**)",
+      "Bash(docker run *)",
+      "Bash(php core/artisan list)",
+      "Bash(php *)",
+      "WebFetch(domain:gist.github.com)",
+      "Bash(docker compose *)",
+      "Bash(grep -iA2 \"^mbstring$\\\\|mbstring support\")"
+    ]
+  }
+}

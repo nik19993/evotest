@@ -1,0 +1,65 @@
+services:
+  evo.php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: evo.php
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      DB_HOST: db
+      DB_USERNAME: homestead
+      DB_PASSWORD: secret
+      DB_DATABASE: evo
+      EVO_SITE_URL: http://localhost:8080/
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - evo
+
+  db:
+    image: mysql:8.0
+    container_name: evo.db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: evo
+      MYSQL_USER: homestead
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - evo_db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    networks:
+      - evo
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: evo.phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: root
+    ports:
+      - "8081:80"
+    depends_on:
+      - db
+    networks:
+      - evo
+
+volumes:
+  evo_db_data:
+
+networks:
+  evo:
+    driver: bridge
