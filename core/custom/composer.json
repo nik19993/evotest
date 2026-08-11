@@ -1,0 +1,13 @@
+{
+    "name": "evolutioncms/custom",
+    "require": {
+        "seiger/slang": "*",
+        "evolution-cms/etinymce": "8.3.2",
+        "seiger/sgallery": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EvolutionCMS\\Main\\": "packages/main/src/"
+        }
+    }
+}

@@ -4,13 +4,19 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libzip-dev \
         libreadline-dev \
         libonig-dev \
+        libpng-dev \
+        libjpeg62-turbo-dev \
+        libfreetype6-dev \
+        libwebp-dev \
         default-mysql-client \
         unzip \
         git \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg --with-webp \
     && docker-php-ext-install -j"$(nproc)" \
         pdo_mysql \
         mbstring \
         zip \
+        gd \
     && docker-php-source extract \
     && cd /usr/src/php/ext/readline \
     && phpize \

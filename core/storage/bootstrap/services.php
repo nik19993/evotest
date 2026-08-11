@@ -45,6 +45,10 @@
     'Fix_Fs' => 'EvolutionCMS\\Providers\\FsServiceProvider',
     'Blade_Icons' => 'EvolutionCMS\\Providers\\BladeIconsAdapterServiceProvider',
     'Blade_Tabler' => 'secondnetwork\\TablerIcons\\BladeTablerIconsServiceProvider',
+    '020_sLangServiceProvider' => 'Seiger\\sLang\\sLangServiceProvider',
+    'MainServiceProvider' => 'EvolutionCMS\\Main\\MainServiceProvider',
+    'eTinyMCEServiceProvider' => 'EvolutionCMS\\eTinyMCE\\eTinyMCEServiceProvider',
+    'sGalleryServiceProvider' => 'Seiger\\sGallery\\sGalleryServiceProvider',
   ),
   'eager' => 
   array (
@@ -87,6 +91,10 @@
     36 => 'EvolutionCMS\\Providers\\FsServiceProvider',
     37 => 'EvolutionCMS\\Providers\\BladeIconsAdapterServiceProvider',
     38 => 'secondnetwork\\TablerIcons\\BladeTablerIconsServiceProvider',
+    39 => 'Seiger\\sLang\\sLangServiceProvider',
+    40 => 'EvolutionCMS\\Main\\MainServiceProvider',
+    41 => 'EvolutionCMS\\eTinyMCE\\eTinyMCEServiceProvider',
+    42 => 'Seiger\\sGallery\\sGalleryServiceProvider',
   ),
   'deferred' => 
   array (

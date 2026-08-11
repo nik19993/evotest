@@ -127,7 +127,7 @@ class TemplateProcessor
      */
     private function setPsrClassNames(string $templateAlias): string
     {
-        $explodedTplName = explode('_', $templateAlias);
+        $explodedTplName = preg_split('/[_-]/', $templateAlias);
         $explodedTplName = array_map(
             function ($item) {
                 return ucfirst(trim($item));

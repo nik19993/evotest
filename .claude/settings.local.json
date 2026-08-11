@@ -12,7 +12,24 @@
       "Bash(php *)",
       "WebFetch(domain:gist.github.com)",
       "Bash(docker compose *)",
-      "Bash(grep -iA2 \"^mbstring$\\\\|mbstring support\")"
+      "Bash(grep -iA2 \"^mbstring$\\\\|mbstring support\")",
+      "Bash(docker compose exec evo.php php -r ' *)",
+      "Bash(docker exec *)",
+      "Bash(curl -s \"http://localhost:8080/blog/lorem-ipsum-dolor-sit-amet-uk1/\" -o /tmp/check7.html -w \"%{http_code}\\\\n\")",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"http://localhost:8080/uk/blog/lorem-ipsum-dolor-sit-amet-uk1/\" -o /tmp/check8.html -w \"%{http_code}\\\\n\")",
+      "Bash(node -c /Users/mykola/Desktop/projects/evo/assets/js/main.js)",
+      "Bash(python3 -c ' *)",
+      "Bash(\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless --disable-gpu --dump-dom --virtual-time-budget=4000 \"http://localhost:8080/blog/lorem-ipsum-dolor-sit-amet-uk1/\")",
+      "Bash(curl -s \"http://localhost:8080/uk/blog/\")",
+      "Bash(curl -sv \"http://localhost:8080/uk/\" -o /dev/null)",
+      "Bash(curl -sv \"http://localhost:8080/uk/blog/\" -o /dev/null)",
+      "Bash(curl -s \"http://localhost:8080/\")",
+      "Bash(curl -s \"http://localhost:8080/blog/\")",
+      "Bash(curl -s \"http://localhost:8080/blog/testpost/\")",
+      "Bash(curl -s \"http://localhost:8080/about-us/\")",
+      "Bash(curl -s \"http://localhost:8080/uk/\")",
+      "Bash(grep -o 'navmenu.\\\\{0,400\\\\}')"
     ]
   }
 }

@@ -1,0 +1,1 @@
+<?php Route::middleware('mgr')->prefix('slang/')->name('sLang.')->group(function () {});

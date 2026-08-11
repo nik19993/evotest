@@ -12,8 +12,8 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '23f09fe3194f8c2f70923f90d6702129' => __DIR__ . '/..' . '/illuminate/collections/functions.php',
         '60799491728b879e74601d83e38b2cad' => __DIR__ . '/..' . '/illuminate/collections/helpers.php',
-        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '19e6faa27d773988183e0f384143fcad' => __DIR__ . '/..' . '/illuminate/reflection/helpers.php',
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '2203a247e6fda86070a5e4e07aed533a' => __DIR__ . '/..' . '/symfony/clock/Resources/now.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         'f625ee536139dfb962a398b200bdb2bd' => __DIR__ . '/..' . '/illuminate/support/functions.php',
@@ -33,11 +33,11 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '47e1160838b5e5a10346ac4084b58c23' => __DIR__ . '/..' . '/laravel/prompts/src/helpers.php',
         '29ffe97919493792170d47eb03a68da9' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/helpers.php',
+        '532945a4b12d830ff3e086cc36a64375' => __DIR__ . '/..' . '/james-heinrich/phpthumb/phpthumb.class.php',
         'a1cfe24d14977df6878b9bf804af2d1c' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php',
         'aadac1114cab8dc19489a7f6dc24c003' => __DIR__ . '/..' . '/pestphp/pest-plugin-arch/src/Autoload.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
-        '532945a4b12d830ff3e086cc36a64375' => __DIR__ . '/..' . '/james-heinrich/phpthumb/phpthumb.class.php',
         'c72349b1fe8d0deeedd3a52e8aa814d8' => __DIR__ . '/..' . '/mockery/mockery/library/helpers.php',
         'ce9671a430e4846b44e1c68c7611f9f5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'f83ed111c2f97a0449abf067f157f418' => __DIR__ . '/..' . '/pestphp/pest/src/Functions.php',
@@ -115,6 +115,8 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
             'Seld\\Signal\\' => 12,
             'Seld\\PharUtils\\' => 15,
             'Seld\\JsonLint\\' => 14,
+            'Seiger\\sLang\\' => 13,
+            'Seiger\\sGallery\\' => 16,
         ),
         'R' =>
         array (
@@ -212,6 +214,7 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'E' =>
         array (
             'ExecWithFallback\\' => 17,
+            'EvolutionCMS\\eTinyMCE\\' => 22,
             'EvolutionCMS\\UserManager\\' => 25,
             'EvolutionCMS\\Main\\' => 18,
             'EvolutionCMS\\DocumentManager\\' => 29,
@@ -407,6 +410,14 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'Seld\\JsonLint\\' =>
         array (
             0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
+        ),
+        'Seiger\\sLang\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/seiger/slang/src',
+        ),
+        'Seiger\\sGallery\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/seiger/sgallery/src',
         ),
         'React\\Promise\\' =>
         array (
@@ -680,6 +691,10 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'ExecWithFallback\\' =>
         array (
             0 => __DIR__ . '/..' . '/rosell-dk/exec-with-fallback/src',
+        ),
+        'EvolutionCMS\\eTinyMCE\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/evolution-cms/etinymce/src',
         ),
         'EvolutionCMS\\UserManager\\' =>
         array (
@@ -2077,6 +2092,8 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'EvolutionCMS\\Legacy\\TemplateParser' => __DIR__ . '/../..' . '/src/Legacy/TemplateParser.php',
         'EvolutionCMS\\Legacy\\mgrResources' => __DIR__ . '/../..' . '/src/Legacy/mgrResources.php',
         'EvolutionCMS\\Mail' => __DIR__ . '/../..' . '/src/Mail.php',
+        'EvolutionCMS\\Main\\Controllers\\BaseController' => __DIR__ . '/../..' . '/custom/packages/main/src/Controllers/BaseController.php',
+        'EvolutionCMS\\Main\\Controllers\\HomeController' => __DIR__ . '/../..' . '/custom/packages/main/src/Controllers/HomeController.php',
         'EvolutionCMS\\Main\\MainServiceProvider' => __DIR__ . '/../..' . '/custom/packages/main/src/MainServiceProvider.php',
         'EvolutionCMS\\MaintenanceMode' => __DIR__ . '/../..' . '/src/MaintenanceMode.php',
         'EvolutionCMS\\ManagerTheme' => __DIR__ . '/../..' . '/src/ManagerTheme.php',
@@ -2253,6 +2270,7 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'EvolutionCMS\\UserManager\\Services\\Users\\UserSetGroups' => __DIR__ . '/..' . '/evolutioncms-services/user-manager/src/Services/Users/UserSetGroups.php',
         'EvolutionCMS\\UserManager\\Services\\Users\\UserSetRole' => __DIR__ . '/..' . '/evolutioncms-services/user-manager/src/Services/Users/UserSetRole.php',
         'EvolutionCMS\\UserManager\\Services\\Users\\UserVerified' => __DIR__ . '/..' . '/evolutioncms-services/user-manager/src/Services/Users/UserVerified.php',
+        'EvolutionCMS\\eTinyMCE\\eTinyMCEServiceProvider' => __DIR__ . '/..' . '/evolution-cms/etinymce/src/eTinyMCEServiceProvider.php',
         'ExecWithFallback\\Availability' => __DIR__ . '/..' . '/rosell-dk/exec-with-fallback/src/Availability.php',
         'ExecWithFallback\\ExecWithFallback' => __DIR__ . '/..' . '/rosell-dk/exec-with-fallback/src/ExecWithFallback.php',
         'ExecWithFallback\\ExecWithFallbackNoMercy' => __DIR__ . '/..' . '/rosell-dk/exec-with-fallback/src/ExecWithFallbackNoMercy.php',
@@ -7190,6 +7208,20 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/type/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/type/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Seiger\\sGallery\\Controllers\\sGalleryController' => __DIR__ . '/..' . '/seiger/sgallery/src/Controllers/sGalleryController.php',
+        'Seiger\\sGallery\\Facades\\sGallery' => __DIR__ . '/..' . '/seiger/sgallery/src/Facades/sGallery.php',
+        'Seiger\\sGallery\\Models\\sGalleryField' => __DIR__ . '/..' . '/seiger/sgallery/src/Models/sGalleryField.php',
+        'Seiger\\sGallery\\Models\\sGalleryModel' => __DIR__ . '/..' . '/seiger/sgallery/src/Models/sGalleryModel.php',
+        'Seiger\\sGallery\\sGallery' => __DIR__ . '/..' . '/seiger/sgallery/src/sGallery.php',
+        'Seiger\\sGallery\\sGalleryServiceProvider' => __DIR__ . '/..' . '/seiger/sgallery/src/sGalleryServiceProvider.php',
+        'Seiger\\sLang\\Controllers\\sLangController' => __DIR__ . '/..' . '/seiger/slang/src/Controllers/sLangController.php',
+        'Seiger\\sLang\\Facades\\sLang' => __DIR__ . '/..' . '/seiger/slang/src/Facades/sLang.php',
+        'Seiger\\sLang\\Models\\sLangContent' => __DIR__ . '/..' . '/seiger/slang/src/Models/sLangContent.php',
+        'Seiger\\sLang\\Models\\sLangTmplvarContentvalue' => __DIR__ . '/..' . '/seiger/slang/src/Models/sLangTmplvarContentvalue.php',
+        'Seiger\\sLang\\Models\\sLangTranslate' => __DIR__ . '/..' . '/seiger/slang/src/Models/sLangTranslate.php',
+        'Seiger\\sLang\\Support\\TreeCollection' => __DIR__ . '/..' . '/seiger/slang/src/Support/TreeCollection.php',
+        'Seiger\\sLang\\sLang' => __DIR__ . '/..' . '/seiger/slang/src/sLang.php',
+        'Seiger\\sLang\\sLangServiceProvider' => __DIR__ . '/..' . '/seiger/slang/src/sLangServiceProvider.php',
         'Seld\\JsonLint\\DuplicateKeyException' => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint/DuplicateKeyException.php',
         'Seld\\JsonLint\\InvalidEncodingException' => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint/InvalidEncodingException.php',
         'Seld\\JsonLint\\JsonParser' => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint/JsonParser.php',
@@ -7438,6 +7470,7 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'Symfony\\Component\\ErrorHandler\\ErrorRenderer\\SerializerErrorRenderer' => __DIR__ . '/..' . '/symfony/error-handler/ErrorRenderer/SerializerErrorRenderer.php',
         'Symfony\\Component\\ErrorHandler\\Error\\ClassNotFoundError' => __DIR__ . '/..' . '/symfony/error-handler/Error/ClassNotFoundError.php',
         'Symfony\\Component\\ErrorHandler\\Error\\FatalError' => __DIR__ . '/..' . '/symfony/error-handler/Error/FatalError.php',
+        'Symfony\\Component\\ErrorHandler\\Error\\MaxExecutionTimeError' => __DIR__ . '/..' . '/symfony/error-handler/Error/MaxExecutionTimeError.php',
         'Symfony\\Component\\ErrorHandler\\Error\\OutOfMemoryError' => __DIR__ . '/..' . '/symfony/error-handler/Error/OutOfMemoryError.php',
         'Symfony\\Component\\ErrorHandler\\Error\\UndefinedFunctionError' => __DIR__ . '/..' . '/symfony/error-handler/Error/UndefinedFunctionError.php',
         'Symfony\\Component\\ErrorHandler\\Error\\UndefinedMethodError' => __DIR__ . '/..' . '/symfony/error-handler/Error/UndefinedMethodError.php',
@@ -8018,6 +8051,7 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'Symfony\\Component\\Translation\\Loader\\QtFileLoader' => __DIR__ . '/..' . '/symfony/translation/Loader/QtFileLoader.php',
         'Symfony\\Component\\Translation\\Loader\\XliffFileLoader' => __DIR__ . '/..' . '/symfony/translation/Loader/XliffFileLoader.php',
         'Symfony\\Component\\Translation\\Loader\\YamlFileLoader' => __DIR__ . '/..' . '/symfony/translation/Loader/YamlFileLoader.php',
+        'Symfony\\Component\\Translation\\LocaleFallbackProvider' => __DIR__ . '/..' . '/symfony/translation/LocaleFallbackProvider.php',
         'Symfony\\Component\\Translation\\LocaleSwitcher' => __DIR__ . '/..' . '/symfony/translation/LocaleSwitcher.php',
         'Symfony\\Component\\Translation\\LoggingTranslator' => __DIR__ . '/..' . '/symfony/translation/LoggingTranslator.php',
         'Symfony\\Component\\Translation\\MessageCatalogue' => __DIR__ . '/..' . '/symfony/translation/MessageCatalogue.php',
@@ -8038,7 +8072,6 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'Symfony\\Component\\Translation\\StaticMessage' => __DIR__ . '/..' . '/symfony/translation/StaticMessage.php',
         'Symfony\\Component\\Translation\\Test\\AbstractProviderFactoryTestCase' => __DIR__ . '/..' . '/symfony/translation/Test/AbstractProviderFactoryTestCase.php',
         'Symfony\\Component\\Translation\\Test\\IncompleteDsnTestTrait' => __DIR__ . '/..' . '/symfony/translation/Test/IncompleteDsnTestTrait.php',
-        'Symfony\\Component\\Translation\\Test\\ProviderFactoryTestCase' => __DIR__ . '/..' . '/symfony/translation/Test/ProviderFactoryTestCase.php',
         'Symfony\\Component\\Translation\\Test\\ProviderTestCase' => __DIR__ . '/..' . '/symfony/translation/Test/ProviderTestCase.php',
         'Symfony\\Component\\Translation\\TranslatableMessage' => __DIR__ . '/..' . '/symfony/translation/TranslatableMessage.php',
         'Symfony\\Component\\Translation\\Translator' => __DIR__ . '/..' . '/symfony/translation/Translator.php',
@@ -8052,6 +8085,7 @@ class ComposerStaticInit925fea465a58fa69f06ccf2629003e87
         'Symfony\\Component\\VarDumper\\Caster\\AmqpCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/AmqpCaster.php',
         'Symfony\\Component\\VarDumper\\Caster\\ArgsStub' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/ArgsStub.php',
         'Symfony\\Component\\VarDumper\\Caster\\Caster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/Caster.php',
+        'Symfony\\Component\\VarDumper\\Caster\\ClassDumpStub' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/ClassDumpStub.php',
         'Symfony\\Component\\VarDumper\\Caster\\ClassStub' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/ClassStub.php',
         'Symfony\\Component\\VarDumper\\Caster\\ConstStub' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/ConstStub.php',
         'Symfony\\Component\\VarDumper\\Caster\\CurlCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/CurlCaster.php',

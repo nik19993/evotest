@@ -9,7 +9,7 @@
     'DB_PASSWORD' => 'secret',
     'DB_PREFIX' => 'evo_',
     'DB_SOCKET' => '',
-    'DB_STRICT' => 'true',
+    'DB_STRICT' => 'false',
     'DB_TYPE' => 'mysql',
     'DB_USERNAME' => 'homestead',
     'EVO_BASE_PATH' => '/var/www/html/',
